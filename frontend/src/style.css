@@ -1,0 +1,77 @@
+:root {
+  font-family: 'Inter', 'PingFang SC', system-ui, -apple-system, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #1A1A1A;
+  background-color: #F8F9FA;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+
+  --el-color-primary:         #1A3C34;
+  --el-color-primary-light-3: #2C5749;
+  --el-color-primary-light-5: #4A7C68;
+  --el-color-primary-light-7: #9AC6B8;
+  --el-color-primary-light-8: #C8E0D9;
+  --el-color-primary-light-9: #EEF4F2;
+  --el-color-primary-dark-2:  #132E28;
+
+
+  --el-border-radius-base:  3px;
+  --el-border-radius-small: 2px;
+
+
+  --el-border-color:        #E8E8E8;
+  --el-border-color-light:  #F0F0F0;
+  --el-border-color-extra-light: #F5F5F5;
+
+
+  --el-box-shadow:       none;
+  --el-box-shadow-light: none;
+  --el-box-shadow-base:  none;
+
+  --el-fill-color:       #F8F9FA;
+  --el-fill-color-light: #FBFBFB;
+  --el-fill-color-blank: #FBFBFB;
+}
+
+a {
+  font-weight: 500;
+  color: #1A3C34;
+  text-decoration: inherit;
+}
+a:hover { color: #2C5749; }
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #F8F9FA;
+}
+
+h1 { font-size: 3.2em; line-height: 1.1; }
+
+button {
+  border-radius: 3px;
+  border: 1px solid transparent;
+  padding: 0.55em 1.1em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.14s, background 0.14s, color 0.14s;
+}
+button:focus, button:focus-visible {
+  outline: 1.5px solid #1A3C34;
+  outline-offset: 2px;
+}
+
+#app {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
